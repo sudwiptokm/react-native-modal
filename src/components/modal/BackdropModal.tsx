@@ -25,10 +25,7 @@ const BackdropModal = (props: Props) => {
       {/* Backdrop Pressing function */}
       <TouchableOpacity
         className="flex-1 justify-center items-center"
-        onPress={(e) => {
-          e.stopPropagation();
-          toggleModal();
-        }}
+        onPress={toggleModal}
       >
         {/* Modal Content */}
         <TouchableWithoutFeedback>
