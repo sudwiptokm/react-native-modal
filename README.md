@@ -1,5 +1,7 @@
-# react-native-expo-tailwind-typescript-react_stack_and_drawer_navigation-template
-Template and ready to go Expo Project
-Checkout to withoutDrawer branch if you don't want to use any drawer. Also the drawer I used here also uses a custom component, so you can customize it as you like.
+# React Native Modal
 
-You can contribute anything if you want, create a PR with proper details and instructions.
+HomeScreen: Manual Modal (BackdropModal)
+TestScreen: Modal using Official React native
+TestScreen2: Modal using react-native-modal package
+
+Switch the screens but changing the initialRouteName="HomeScreen" on Root.tsx file. Use the Screen names as initialRouteName such as: initialRouteName="TestScreen"
